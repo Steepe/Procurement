@@ -1,0 +1,49 @@
+body, #wpbody, .form-table .pre { color: #333333; }
+table.fixed { table-layout: fixed; }
+a, #adminmenu a, #poststuff #edButtonPreview, #poststuff #edButtonHTML, #the-comment-list p.comment-author strong a, #media-upload a.del-link, #media-items a.delete, .plugins a.delete, .ui-tabs-nav a { color: #21759B; }
+
+.widefat * { word-wrap: break-word; }
+.widefat { background-color: #f2f2f2; border-color: #DFDFDF; -moz-border-radius: 4px 4px 4px 4px; border-spacing: 0; border-style: solid; border-width: 1px; clear: both; margin: 0; width: 100%; border-spacing: 0; border-style: solid; }
+.widefat .check-column { padding: 0;  width: 2.2em;}
+.widefat thead tr th, .widefat tfoot tr th, h3.dashboard-widget-title, h3.dashboard-widget-title span, h3.dashboard-widget-title small, .find-box-head { background: url(images/content_header.png) repeat-x scroll left top #DFDFDF; color: #333333;}
+.widefat th, .widefat td { overflow: hidden; }
+.widefat th {line-height: 1.3em; padding: 7px 7px 8px; text-align: left; text-shadow: 0 1px 0 rgba(255, 255, 255, 0.8);}
+.widefat td, .widefat th { border-bottom-style: solid; border-bottom-width: 1px; font-size: 11.5px;}
+.widefat td, .widefat th, #install-plugins .plugins td, #install-plugins .plugins th { border-color: #DFDFDF; padding-top:5px; }
+.widefat th input { margin: 0 0 0 8px; padding: 0; vertical-align: text-top;}
+.widefat a {  text-decoration: none; }
+.alternate, .alt { background-color: #e5e5fd;}
+.widefat tbody th.check-column { padding: 7px 0 22px; vertical-align: top; }
+.widefat tbody.plugins th.check-column{padding:7px 0;}
+.widefat .plugins td,.widefat .plugins th{border-bottom:0 none;}
+.widefat .column-comment p{margin:.6em 0;}
+
+input, select { line-height: 1em; }
+td, textarea, input, select { font-family: "Lucida Grande",Verdana,Arial,"Bitstream Vera Sans",sans-serif; font-size: 11px; }
+input[type="checkbox"], input[type="radio"] { vertical-align: middle; }
+textarea, input, select { margin: 1px; padding: 3px;}
+
+.fixed .column-response, .fixed .column-author, .fixed .column-categories, .fixed .column-tags, .fixed .column-rel, .fixed .column-role { width: 15%; }
+.fixed .column-comments { padding-top: 8px; width: 4em;}
+.fixed .column-date, .fixed .column-parent, .fixed .column-links { width: 10%; }
+.widefat th#comments { vertical-align: middle; }
+.widefat .num, .column-comments, .column-links, .column-posts { text-align: center; }
+
+table .vers, table .column-visible, table .column-rating {  text-align: center; }
+td.post-title strong, td.plugin-title strong { display: block; margin-bottom: 0.2em; }
+table.widefat span.delete a,table.widefat span.trash a,table.widefat span.spam a,#dashboard_recent_comments .delete a,#dashboard_recent_comments .trash a,#dashboard_recent_comments .spam a{color:#bc0b0b;}
+div#media-upload-error,.file-error,abbr.required,.widget-control-remove:hover,table.widefat .delete a:hover,table.widefat .trash a:hover,table.widefat .spam a:hover,#dashboard_recent_comments .delete a:hover,#dashboard_recent_comments .trash a:hover #dashboard_recent_comments
+.spam a:hover{color:#f00;}
+.hidden, .js .closed .inside, .js .hide-if-js, .no-js .hide-if-no-js { display: none; }
+
+.row-title { font-size: 12px !important; font-weight: bold; }
+.row-actions { padding: 2px 0 0; visibility: hidden; font-size:11px; }
+.row-actions a:hover{ color:#FF3300;}
+
+.widefat tr { border:red solid 1px;}
+.view-switch #view-switch-list{background:transparent url(images/list.png) no-repeat 0 0;}
+.view-switch #view-switch-list.current { background: url(images/list.png) no-repeat scroll -40px 0 transparent; }
+.view-switch #view-switch-excerpt{background:transparent url(images/list.png) no-repeat -20px 0;}
+.view-switch #view-switch-excerpt.current{background:transparent url(images/list.png) no-repeat -60px 0;}
+.view-switch{float:right;margin:6px 8px 0;}
+.view-switch a{text-decoration:none;}

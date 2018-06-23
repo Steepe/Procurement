@@ -1,0 +1,126 @@
+/**
+ * All your custom CSS should go into this file
+ */
+
+h1, h2, h3, h4{
+    margin: 0px !important;
+    padding: 0px !important;
+}
+body {
+    font-family: Calibri sans-serif;
+}
+
+th{
+    color: #CF5216;
+    font-weight: normal !important;
+}
+
+.login{
+    background: #368ee0;
+}
+.error{
+    color: #CC0000;
+}
+#login_form{
+    background: #fff;
+}
+
+#mainHeader{width: 100%; height: 40px; margin: auto; background: #368ee0; padding-top: 10px;}
+#mainHeader img{float: left; border: none;}
+#mainHeader h4{color: #fff; float: left;}
+
+#subHeader{width: 100%; height: 40px; margin: auto; background: rgba(255, 176, 35, 0.48); padding-top: 10px;}
+#subHeader img{float: left; border: none;}
+#subHeader h4{color: #fff; float: left;}
+
+.nav{list-style: none; float: left; margin-left: 30px;}
+.nav li{display: inline !important;}
+.nav li a{display: inline !important; color: #fff; padding: 12px 15px !important;}
+.nav li a:hover{background: #1E74C5 !important;}
+
+.container{margin-left: 200px !important;}
+.required{color: red;}
+.white{color: #fff;}
+
+#myfooter{width: 100%; height: 30px; margin: auto; background: #b94a48; position: absolute; bottom: 0px; margin-bottom: 0px;}
+#myfooter p{text-align: center; color: #fff; margin: 0px; padding: 0px;}
+
+#AllDonorsTable{margin-right: -10px !important; float: right;}
+
+#Left{width: 245px; height: 600px; float: left; margin-left: -215px; background: #4d4d4d; padding-left: 5px;}
+#reportNav{list-style: none; margin: 0px; padding: 0px;}
+#reportNav li{margin-bottom: 15px; margin-top: 10px;}
+#reportNav li a{color: #e3cd35;}
+#reportNav li a:hover{color: #1E74C5;}
+
+#ReportRight{width: 800px; height: 550px; float: left; margin-left: 100px; padding-top: 50px;}
+
+#error_box{ width: 500px; height: 50px; background: #ff0000; float: left; margin-top: 50px; margin-left: 30px; padding-left: 10px; padding-top: 10px;}
+#error_box p{color: #FFFFFF; font-weight: bold;}
+
+#success_box{ width: 500px; height: 50px; background: #53c15f; float: left; margin-top: 50px; margin-left: 30px; padding-left: 10px; padding-top: 10px;}
+#success_box p{color: #FFFFFF; font-weight: bold;}
+
+/***   AUTO SUGGEST CSS ***/
+#result {
+    height:20px;
+    font-size:16px;
+    font-family:Arial, Helvetica, sans-serif;
+    color:#333;
+    padding:5px;
+    margin-bottom:10px;
+    background-color:#FFFF99;
+}
+#country{
+    padding:3px;
+    border:1px #CCC solid;
+    font-size:17px;
+}
+.suggestionsBox {
+    position: relative;
+    left: 0px;
+    top:0px;
+    margin: 0px 0px 0px 0px;
+    width: 200px;
+    padding:0px;
+    background-color: #000;
+    border-top: 3px solid #000;
+    color: #fff;
+}
+.suggestionList {
+    margin: 0px;
+    padding: 0px;
+}
+.suggestionList ul li {
+    list-style:none;
+    margin: 0px;
+    padding: 6px;
+    border-bottom:1px dotted #666;
+    cursor: pointer;
+}
+.suggestionList ul li:hover {
+    background-color: #FC3;
+    color:#000;
+}
+.suggestionsBox ul {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:11px;
+    color:#FFF;
+    padding:0;
+    margin:0;
+}
+
+.load{
+    background-image:url(loader.gif);
+    background-position:right;
+    background-repeat:no-repeat;
+}
+
+#suggest {
+    position:relative;
+}
+
+.my-table{
+    background: #EEF7F7; border: solid 1px #cccccc;
+}
+
