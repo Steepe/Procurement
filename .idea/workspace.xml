@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1f827d7c-6b21-44d5-bb9d-15611cf94f37" name="Default" comment="" />
+    <list default="true" id="1f827d7c-6b21-44d5-bb9d-15611cf94f37" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/new_rfq.php" afterPath="$PROJECT_DIR$/application/views/new_rfq.php" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -41,113 +43,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="Home.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/controllers/Home.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5625">
-              <caret line="230" column="17" lean-forward="false" selection-start-line="230" selection-start-column="17" selection-end-line="230" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="view_request.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/views/view_request.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1525">
-              <caret line="61" column="34" lean-forward="false" selection-start-line="61" selection-start-column="34" selection-end-line="61" selection-end-column="34" />
-              <folding>
-                <marker date="1529751477442" expanded="true" signature="6305:6491" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="new_rfq.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/views/new_rfq.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="159">
-              <caret line="96" column="29" lean-forward="true" selection-start-line="96" selection-start-column="29" selection-end-line="96" selection-end-column="29" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="routes.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/config/routes.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1525">
-              <caret line="61" column="2" lean-forward="false" selection-start-line="61" selection-start-column="2" selection-end-line="61" selection-end-column="2" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Procurement_model.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/models/Procurement_model.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1500">
-              <caret line="60" column="185" lean-forward="false" selection-start-line="60" selection-start-column="185" selection-end-line="60" selection-end-column="185" />
-              <folding>
-                <marker date="1529572224075" expanded="true" signature="268:316" ph="SELECT MAX(r... tbl_requests" />
-                <marker date="1529572224075" expanded="true" signature="431:495" ph="SELECT MAX(e... tbl_emergency_requests" />
-                <marker date="1529572224075" expanded="true" signature="605:637" ph="SELECT * FRO... ci_sessions" />
-                <marker date="1529572224075" expanded="true" signature="605:649" ph="SELECT * FRO... ci_sessions" />
-                <marker date="1529572224075" expanded="true" signature="1098:1225" ph="SELECT a.*, tbl_requests" />
-                <marker date="1529572224075" expanded="true" signature="1098:1227" ph="SELECT a.*, tbl_requests" />
-                <marker date="1529572224075" expanded="true" signature="1348:1655" ph="SELECT a.*, tbl_requests" />
-                <marker date="1529572224075" expanded="true" signature="1348:1679" ph="SELECT a.*, tbl_requests" />
-                <marker date="1529572224075" expanded="true" signature="1942:1954" ph="SELECT r.*, tbl_requests" />
-                <marker date="1529572224075" expanded="true" signature="1942:2092" ph="SELECT r.*, tbl_requests" />
-                <marker date="1529572224075" expanded="true" signature="1942:2094" ph="SELECT r.*, tbl_requests" />
-                <marker date="1529572224075" expanded="true" signature="2237:2383" ph="SELECT r.*, tbl_requests" />
-                <marker date="1529572224075" expanded="true" signature="2237:2387" ph="SELECT r.*, tbl_requests" />
-                <marker date="1529572224075" expanded="true" signature="2237:2407" ph="SELECT r.*, tbl_requests" />
-                <marker date="1529572224075" expanded="true" signature="2237:2409" ph="SELECT r.*, tbl_requests" />
-                <marker date="1529572224075" expanded="true" signature="2655:2828" ph="SELECT r.*, tbl_requests" />
-                <marker date="1529572224075" expanded="true" signature="3076:3318" ph="SELECT r.*, tbl_requests" />
-                <marker date="1529572224075" expanded="true" signature="3567:3740" ph="SELECT r.*, tbl_requests" />
-                <marker date="1529572224075" expanded="true" signature="3990:4254" ph="SELECT a.*, tbl_requests" />
-                <marker date="1529572224075" expanded="true" signature="4510:4595" ph="SELECT * FRO... tbl_comments" />
-                <marker date="1529572224075" expanded="true" signature="5568:5692" ph="UPDATE tbl_r... " />
-                <marker date="1529572224075" expanded="true" signature="6483:6518" ph="SELECT vendo... tbl_vendors" />
-                <marker date="1529572224075" expanded="true" signature="7015:7201" ph="SELECT a.*, tbl_emergency_requests" />
-                <marker date="1529572224075" expanded="true" signature="7468:7613" ph="SELECT a.*, tbl_emergency_requests" />
-                <marker date="1529572224075" expanded="true" signature="7977:8076" ph="SELECT * FRO... tbl_emergency_comments" />
-                <marker date="1529572224075" expanded="true" signature="8315:8404" ph="SELECT super... tbl_departments" />
-                <marker date="1529572224075" expanded="true" signature="8527:8613" ph="SELECT super... tbl_departments" />
-                <marker date="1529572224075" expanded="true" signature="8765:8849" ph="SELECT * FRO... tbl_read" />
-                <marker date="1529572224075" expanded="true" signature="9376:9438" ph="SELECT * FRO... tbl_read" />
-                <marker date="1529572224075" expanded="true" signature="9595:9768" ph="SELECT r.*, tbl_requests" />
-                <marker date="1529572224075" expanded="true" signature="9595:9817" ph="SELECT r.*, tbl_requests" />
-                <marker date="1529572224075" expanded="true" signature="10075:10171" ph="SELECT vendo... tbl_vendors" />
-                <marker date="1529572224075" expanded="true" signature="10420:10550" ph="SELECT vendo... tbl_vendors" />
-                <marker date="1529572224075" expanded="true" signature="11157:11208" ph="UPDATE tbl_v... " />
-                <marker date="1529572224075" expanded="true" signature="11157:11232" ph="UPDATE tbl_v... " />
-                <marker date="1529572224075" expanded="true" signature="11163:11208" ph="SELECT vendo... tbl_vendors" />
-                <marker date="1529572224075" expanded="true" signature="11430:11486" ph="SELECT * FRO... tbl_vendors" />
-                <marker date="1529572224075" expanded="true" signature="11618:11674" ph="SELECT procu... tbl_requests" />
-                <marker date="1529572224075" expanded="true" signature="11618:11733" ph="SELECT procu... tbl_requests" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="request_inbox.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/views/request_inbox.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2050">
-              <caret line="82" column="0" lean-forward="false" selection-start-line="82" selection-start-column="0" selection-end-line="93" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="product_form.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/views/product_form.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3850">
-              <caret line="154" column="29" lean-forward="false" selection-start-line="154" selection-start-column="29" selection-end-line="154" selection-end-column="29" />
+            <state relative-caret-position="375">
+              <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -309,18 +209,6 @@
               <item name="procurement" type="b2602c69:ProjectViewProjectNode" />
               <item name="procurement" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="application" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="config" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="procurement" type="b2602c69:ProjectViewProjectNode" />
-              <item name="procurement" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="application" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="controllers" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="procurement" type="b2602c69:ProjectViewProjectNode" />
-              <item name="procurement" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="application" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
@@ -354,9 +242,9 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../onlinepay2" />
+    <property name="last_opened_file_path" value="$USER_HOME$/AppData/Local/GitHubDesktop/GitHubDesktop.exe" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
@@ -424,12 +312,12 @@
       <workItem from="1520431078172" duration="25905000" />
       <workItem from="1529614887713" duration="594000" />
       <workItem from="1529743106927" duration="7610000" />
-      <workItem from="1529756615223" duration="1135000" />
+      <workItem from="1529756615223" duration="3480000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="281285000" />
+    <option name="totallyTimeSpent" value="283630000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -441,7 +329,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-11" y="-11" width="1942" height="1042" extended-state="7" />
+    <frame x="-11" y="-11" width="1942" height="1042" extended-state="6" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21302083" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289183" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -454,13 +342,23 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289183" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289183" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289183" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21302083" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289183" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296875" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -693,47 +591,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1500">
           <caret line="60" column="185" lean-forward="false" selection-start-line="60" selection-start-column="185" selection-end-line="60" selection-end-column="185" />
-          <folding>
-            <marker date="1529572224075" expanded="true" signature="268:316" ph="SELECT MAX(r... tbl_requests" />
-            <marker date="1529572224075" expanded="true" signature="431:495" ph="SELECT MAX(e... tbl_emergency_requests" />
-            <marker date="1529572224075" expanded="true" signature="605:637" ph="SELECT * FRO... ci_sessions" />
-            <marker date="1529572224075" expanded="true" signature="605:649" ph="SELECT * FRO... ci_sessions" />
-            <marker date="1529572224075" expanded="true" signature="1098:1225" ph="SELECT a.*, tbl_requests" />
-            <marker date="1529572224075" expanded="true" signature="1098:1227" ph="SELECT a.*, tbl_requests" />
-            <marker date="1529572224075" expanded="true" signature="1348:1655" ph="SELECT a.*, tbl_requests" />
-            <marker date="1529572224075" expanded="true" signature="1348:1679" ph="SELECT a.*, tbl_requests" />
-            <marker date="1529572224075" expanded="true" signature="1942:1954" ph="SELECT r.*, tbl_requests" />
-            <marker date="1529572224075" expanded="true" signature="1942:2092" ph="SELECT r.*, tbl_requests" />
-            <marker date="1529572224075" expanded="true" signature="1942:2094" ph="SELECT r.*, tbl_requests" />
-            <marker date="1529572224075" expanded="true" signature="2237:2383" ph="SELECT r.*, tbl_requests" />
-            <marker date="1529572224075" expanded="true" signature="2237:2387" ph="SELECT r.*, tbl_requests" />
-            <marker date="1529572224075" expanded="true" signature="2237:2407" ph="SELECT r.*, tbl_requests" />
-            <marker date="1529572224075" expanded="true" signature="2237:2409" ph="SELECT r.*, tbl_requests" />
-            <marker date="1529572224075" expanded="true" signature="2655:2828" ph="SELECT r.*, tbl_requests" />
-            <marker date="1529572224075" expanded="true" signature="3076:3318" ph="SELECT r.*, tbl_requests" />
-            <marker date="1529572224075" expanded="true" signature="3567:3740" ph="SELECT r.*, tbl_requests" />
-            <marker date="1529572224075" expanded="true" signature="3990:4254" ph="SELECT a.*, tbl_requests" />
-            <marker date="1529572224075" expanded="true" signature="4510:4595" ph="SELECT * FRO... tbl_comments" />
-            <marker date="1529572224075" expanded="true" signature="5568:5692" ph="UPDATE tbl_r... " />
-            <marker date="1529572224075" expanded="true" signature="6483:6518" ph="SELECT vendo... tbl_vendors" />
-            <marker date="1529572224075" expanded="true" signature="7015:7201" ph="SELECT a.*, tbl_emergency_requests" />
-            <marker date="1529572224075" expanded="true" signature="7468:7613" ph="SELECT a.*, tbl_emergency_requests" />
-            <marker date="1529572224075" expanded="true" signature="7977:8076" ph="SELECT * FRO... tbl_emergency_comments" />
-            <marker date="1529572224075" expanded="true" signature="8315:8404" ph="SELECT super... tbl_departments" />
-            <marker date="1529572224075" expanded="true" signature="8527:8613" ph="SELECT super... tbl_departments" />
-            <marker date="1529572224075" expanded="true" signature="8765:8849" ph="SELECT * FRO... tbl_read" />
-            <marker date="1529572224075" expanded="true" signature="9376:9438" ph="SELECT * FRO... tbl_read" />
-            <marker date="1529572224075" expanded="true" signature="9595:9768" ph="SELECT r.*, tbl_requests" />
-            <marker date="1529572224075" expanded="true" signature="9595:9817" ph="SELECT r.*, tbl_requests" />
-            <marker date="1529572224075" expanded="true" signature="10075:10171" ph="SELECT vendo... tbl_vendors" />
-            <marker date="1529572224075" expanded="true" signature="10420:10550" ph="SELECT vendo... tbl_vendors" />
-            <marker date="1529572224075" expanded="true" signature="11157:11208" ph="UPDATE tbl_v... " />
-            <marker date="1529572224075" expanded="true" signature="11157:11232" ph="UPDATE tbl_v... " />
-            <marker date="1529572224075" expanded="true" signature="11163:11208" ph="SELECT vendo... tbl_vendors" />
-            <marker date="1529572224075" expanded="true" signature="11430:11486" ph="SELECT * FRO... tbl_vendors" />
-            <marker date="1529572224075" expanded="true" signature="11618:11674" ph="SELECT procu... tbl_requests" />
-            <marker date="1529572224075" expanded="true" signature="11618:11733" ph="SELECT procu... tbl_requests" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -755,7 +612,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1525">
           <caret line="61" column="2" lean-forward="false" selection-start-line="61" selection-start-column="2" selection-end-line="61" selection-end-column="2" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -784,7 +640,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="5625">
           <caret line="230" column="17" lean-forward="false" selection-start-line="230" selection-start-column="17" selection-end-line="230" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -800,9 +655,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1525">
           <caret line="61" column="34" lean-forward="false" selection-start-line="61" selection-start-column="34" selection-end-line="61" selection-end-column="34" />
-          <folding>
-            <marker date="1529751477442" expanded="true" signature="6305:6491" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -816,8 +668,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/views/new_rfq.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
-          <caret line="96" column="29" lean-forward="true" selection-start-line="96" selection-start-column="29" selection-end-line="96" selection-end-column="29" />
+        <state relative-caret-position="375">
+          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
           <folding />
         </state>
       </provider>

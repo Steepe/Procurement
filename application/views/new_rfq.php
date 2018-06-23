@@ -13,6 +13,7 @@ require_once(APPPATH.'views/includes/left_sidebar.php');
 //var_dump($vendors_list);
 //exit;
 ?>
+test
         <form class="form-horizontal form-bordered" id="job_form" action="<?php echo base_url('do_send_message'); ?>" method="post" enctype="multipart/form-data" role="form" accept-charset="utf-8">
             <div class="panel panel-default">
                 <div class="panel-heading"><h6 class="panel-title"><i class="icon-menu"></i>Send A Message</h6></div>
