@@ -33,7 +33,8 @@
 <script src="<?php echo base_url('assets/vendors/iCheck/js/icheck.js');?>"></script>
 <script src="<?php echo base_url('assets/vendors/bootstrap-fileinput/js/fileinput.min.js" type="text/javascript');?>"></script>
 <script src="<?php echo base_url('assets/js/custom_js/form_elements.js');?>"></script>
-
+<script src="vendors/insignia/js/insignia.js"></script>
+<script type="text/javascript" src="js/custom_js/insignia_custom.js');?>"></script>
 <!-- end of page level js -->
 <!-- Data table JavaScript -->
 <script type="text/javascript" src="<?php echo base_url('assets/vendors/datatables/js/jquery.dataTables.js');?>"></script>

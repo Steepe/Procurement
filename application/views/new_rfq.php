@@ -13,7 +13,13 @@ require_once(APPPATH.'views/includes/left_sidebar.php');
 //var_dump($vendors_list);
 //exit;
 ?>
-test
+
+<aside class="right-side">
+    <!-- Content Header (Page header) -->
+
+    <section class="content">
+        <div class="row">
+            <div class="col-md-12">
         <form class="form-horizontal form-bordered" id="job_form" action="<?php echo base_url('do_send_message'); ?>" method="post" enctype="multipart/form-data" role="form" accept-charset="utf-8">
             <div class="panel panel-default">
                 <div class="panel-heading"><h6 class="panel-title"><i class="icon-menu"></i>Send A Message</h6></div>
@@ -26,8 +32,10 @@ test
             				<span class="input-group-btn">
                                 <a data-toggle="modal" role="button" href="#form_modal"><button class="btn btn-default" type="button" id="addVendor">Add Vendors emails</button></a>
 							</span>
-                            <input type="text" id="email_to" name="email_to" class="tags" value="<?php if(isset($emails)){foreach($emails as $email){echo $email['email'].', ';}} ?>">
+                                <div class='input'>
+                                <input type="text" id="del" name="email_to" value="<?php if(isset($emails)){foreach($emails as $email){echo $email['email'].', ';}} ?>">
                             <?php echo form_error('email_to'); ?>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -110,8 +118,18 @@ test
 </div>
 <!-- /form modal -->
 
+            </div>
+        </div>
+        <!--main content ends-->
+        <div class="background-overlay"></div>
+    </section>
+    <!-- /.content -->
+</aside>
+<!-- /.right-side -->
+</div>
+<!-- ./wrapper -->
 
-        <?php
+<?php
         require_once(APPPATH.'views/includes/footer.php');
         ?>
 
