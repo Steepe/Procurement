@@ -8,18 +8,8 @@
  */
 
 require_once(APPPATH.'views/includes/header.php');
-?>
-<body>
-<?php require_once(APPPATH.'views/includes/navigation.php'); ?>
-<!-- Page container -->
-<div class="page-container">
-    <?php require_once(APPPATH.'views/includes/left_sidebar.php'); ?>
-    <!-- Page content -->
-    <div class="page-content">
-
-
-<?php
-//var_dump($get_uploaded_quotes);
+require_once(APPPATH.'views/includes/navigation.php');
+require_once(APPPATH.'views/includes/left_sidebar.php');
 ?>
         <br>
         <!-- Breadcrumbs line -->
