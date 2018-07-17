@@ -117,10 +117,10 @@
                 });
                 return false;
             }
-
-
-
         </script>
+        <?php
+            $user_roles = explode(",", $this->session->user_roles);
+        ?>
     </head>
 
     <body class="skin-default">

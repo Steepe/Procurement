@@ -10,18 +10,15 @@
     require_once(APPPATH.'views/includes/navigation.php');
     require_once(APPPATH.'views/includes/left_sidebar.php');
    // require_once(APPPATH.'views/includes/right_sidebar.php');
+
+//var_dump($this->session->userdata);
 ?>
         <aside class="right-side">
-
+            <?php
+                //echo "User Role: ".$this->session->user_roles;
+            ?>
             <section class="content-header">
                 <div class="row">
-                    <div class="col-lg-6 col-md-6 col-sm-5 col-xs-8">
-                        <div class="header-element">
-                            <h3>Clear/
-                                <small>Dashboard</small>
-                            </h3>
-                        </div>
-                    </div>
                     <div class="col-lg-4 col-lg-offset-2 col-md-6 col-sm-7 col-xs-4">
                         <div class="header-object">
                         <span class="option-search pull-right hidden-xs">

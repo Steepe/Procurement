@@ -45,7 +45,7 @@ $count = count($lists);
                     <th>Subject</th>
                     <th>Department</th>
                     <th>Date Requested</th>
-                    <th>Approved by</th>
+                    <th>Updated by</th>
                 </tr>
                 </thead>
                 <?php
@@ -73,7 +73,7 @@ $count = count($lists);
                     <th>Subject</th>
                     <th>Department</th>
                     <th>Date Requested</th>
-                    <th>Approved by</th>
+                    <th>Updated by</th>
                 </tr>
                 </tfoot>
             </table>

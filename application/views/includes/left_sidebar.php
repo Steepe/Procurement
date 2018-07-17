@@ -5,7 +5,7 @@
  * Date: 2/16/15
  * Time: 12:41 AM
  */
-?>
+ ?>
 
 <div class="wrapper row-offcanvas row-offcanvas-left">
     <!-- Left side column. contains the logo and sidebar -->
@@ -41,6 +41,9 @@
                             <span class="mm-text ">Dashboard</span>
                         </a>
                     </li>
+                    <?php
+                        if(in_array("3", $user_roles)){
+                    ?>
                     <li class="menu-dropdown">
                         <a href="#">
                             <i class="menu-icon ti-desktop"></i>
@@ -66,7 +69,7 @@
                                 </a>
                             </li>
                             <?php
-                            if($this->session->userdata('user_role') == 2) {
+                            if(in_array("4", $user_roles)){
                                 ?>
                                 <li><a href="<?php echo base_url('request/emergency');?>">Emergency Form</a></li>
                                 <?php
@@ -74,6 +77,9 @@
                             ?>
                         </ul>
                     </li>
+                    <?php
+                        }
+                    ?>
                     <li class="menu-dropdown">
                         <a href="#">
                             <i class="menu-icon ti-briefcase"></i>
@@ -83,16 +89,32 @@
                             <span class="fa arrow"></span>
                         </a>
                         <ul class="sub-menu">
+                            <?php
+                                if(in_array("9", $user_roles)){
+                            ?>
                             <li>
                                 <a href="<?php echo base_url('inbox');?>">
                                     <i class="fa fa-fw ti-brush"></i> Request Inbox
                                 </a>
                             </li>
                             <?php
-                            if($this->session->userdata('user_role') == 4 || $this->session->userdata('user_role') == 6) {
+                                }
+                            ?>
+                            <li>
+                                <a href="<?php echo base_url('sent');?>">
+                                    <i class="fa fa-fw ti-brush"></i> Request Sent
+                                </a>
+                            </li>
+                            <?php
+                            if(in_array("6", $user_roles)){
                                 ?>
                                 <li><a href="<?php echo base_url('procurement/request/all_requests'); ?>">View all
                                         requests</a></li>
+                                <?php
+                                    }
+                                    if(in_array("7", $user_roles)){
+                                ?>
+
                                 <li><a href="<?php echo base_url('procurement/request/view_emergency_requests'); ?>">View
                                         emergency requests</a></li>
                                 <?php
@@ -100,16 +122,16 @@
                             ?>
                         </ul>
                     </li>
+                    <?php
+                         if(in_array("12", $user_roles)){
+                        ?>
                     <li class="menu-dropdown">
                         <a href="#">
                             <i class="menu-icon ti-widget"></i>
-                            <span>Utilities</span>
+                            <span>Product Management</span>
                             <span class="fa arrow"></span>
                         </a>
                         <ul class="sub-menu">
-                            <?php
-                            if($this->session->userdata('user_role') == 5 || $this->session->userdata('user_role') == 6){
-                            ?>
 
                             <li>
                                 <a href="<?php echo base_url('add_new_item');?>">
@@ -117,45 +139,49 @@
                                     Add new Product
                                 </a>
                             </li>
+
+
                                 <li>
                                     <a href="widgets1.html">
                                         <i class=" menu-icon fa fa-fw ti-widget-alt"></i>
                                         Manage Vendors
                                     </a>
                                 </li>
-                            <?php
-                                }
-                            ?>
                         </ul>
                     </li>
                     <?php
-                    if($this->session->userdata('user_role') == 4 || $this->session->userdata('user_role') == 5) {
+                    }
+                        if(in_array("2", $user_roles)){
                     ?>
                     <li class="menu-dropdown">
-                        <a href="#">
-                            <i class="menu-icon ti-layout-grid4"></i>
-                            <span>Request for Quotes</span>
-                            <span class="fa arrow"></span>
-                        </a>
-                        <ul class="sub-menu">
-                            <li>
-                                <a href="<?php echo base_url('quotations/new_rfq'); ?>">
-                                    <i class="fa fa-fw ti-layout"></i> New RFQ
+                                <a href="#">
+                                    <i class="menu-icon ti-layout-grid4"></i>
+                                    <span>Request for Quotes</span>
+                                    <span class="fa arrow"></span>
                                 </a>
+                                <ul class="sub-menu">
+                                    <li>
+                                        <a href="<?php echo base_url('quotations/new_rfq'); ?>">
+                                            <i class="fa fa-fw ti-layout"></i> New RFQ
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="<?php echo base_url('quotations/upload'); ?>">
+                                            <i class="fa fa-fw ti-server"></i> Upload Quotation
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="<?php echo base_url('quotations'); ?>">
+                                            <i class="fa fa-fw ti-layout-grid3"></i> Quotations
+                                        </a>
+                                    </li>
+                                </ul>
                             </li>
-                            <li>
-                                <a href="<?php echo base_url('quotations/upload'); ?>">
-                                    <i class="fa fa-fw ti-server"></i> Upload Quotation
-                                </a>
-                            </li>
-                            <li>
-                                <a href="<?php echo base_url('quotations'); ?>">
-                                    <i class="fa fa-fw ti-layout-grid3"></i> Quotations
-                                </a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li class="menu-dropdown">
+                    <?php
+                        }
+                        if(in_array("1", $user_roles)){
+                    ?>
+                        <li class="menu-dropdown">
                         <a href="#"> <i class="menu-icon ti-bar-chart"></i>
                             <span>Purchase Orders</span>
                             <span class="fa arrow"></span>
@@ -171,8 +197,8 @@
                             </li>
                         </ul>
                     </li>
-                        <?php
-                    }
+                    <?php
+                        }
                     ?>
                 </ul>
                 <!-- / .navigation --> </div>

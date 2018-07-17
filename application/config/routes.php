@@ -56,6 +56,7 @@ $route['request/(:any)'] = 'home/request/$1';
 $route['request/(:any)/(:any)'] = 'home/request/$1/$2';
 $route['do_submit_request'] = 'home/do_submit_request';
 $route['inbox'] = 'home/request_list';
+$route['sent'] = 'home/request_sent';
 $route['inbox/(:num)'] = 'home/inbox/$1';
 $route['do_request_comment'] = 'home/do_request_comment';
 $route['inbox/(:num)/(:any)'] = 'home/inbox/$1/$2';

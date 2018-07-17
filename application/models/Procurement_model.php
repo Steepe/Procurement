@@ -57,7 +57,7 @@ JOIN tbl_departments c ON c.department_id = a.department_id JOIN tbl_approval_ro
 
     }
 
-    function load_requests_2($department_id){
+    function load_inbox_hod($department_id){
         $query = $this->db->query("SELECT r.*, d.department_name FROM tbl_requests r JOIN tbl_departments d ON d.department_id = r.department_id WHERE r.department_id = '$department_id'");
         $result = $query->result_array();
         return $result;
@@ -331,6 +331,12 @@ JOIN tbl_departments c ON c.department_id = a.department_id JOIN tbl_approval_ro
             return true;
         }
         return false;
+    }
+
+    function get_sent_requests($employee_id){
+        $query = $this->db->query("SELECT *  FROM tbl_requests WHERE employee_id = '$employee_id'");
+        $results = $query->result_array();
+        return $results;
     }
 
 

@@ -11,10 +11,11 @@ if (!defined('BASEPATH')) exit('No direct script access allowed');
 class Login_model extends CI_Model{
 
     public function login($email, $password){
-        $my_password = md5($password);
+        $md5_password = md5($password);
 //echo md5($password);
         //exit;
-        $query = $this->db->query("SELECT u.*, d.supervisor_name, d.supervisor_email, d.department_name FROM tbl_users as u JOIN tbl_departments d ON d.department_id = u.department_id WHERE u.employee_email = '$email' AND u.emp_password = '$my_password'");
+        $query = $this->db->query("SELECT u.*, d.supervisor_name, d.supervisor_email, d.department_name, GROUP_CONCAT(um.module_id) as user_roles FROM tbl_users AS u JOIN tbl_departments d ON d.department_id = u.department_id INNER JOIN tbl_users_modules um ON um.employee_id = u.employee_id WHERE u.employee_email = '$email' AND u.emp_password = '$md5_password'");
+
 
        // $query = $this->db->get();
 

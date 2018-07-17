@@ -11,6 +11,7 @@ if (!defined('BASEPATH')) exit('No direct script access allowed');
 class Home extends MY_Controller {
     public function __construct(){
         parent::__construct();
+       $this->user_roles = explode(",", $this->session->user_roles);
     }
 
 
@@ -96,7 +97,7 @@ class Home extends MY_Controller {
         $new_form_data['requested_by'] = $form_data['requested_by'];
         $new_form_data['department_id'] = $form_data['department_id'];
         $new_form_data['amount'] = str_ireplace(',', '', $form_data['amount'] );
-        $new_form_data['approval_role'] = $this->session->userdata('user_role');
+        //$new_form_data['approval_role'] = $this->session->userdata('user_role');
         $new_form_data['approver'] = $this->session->userdata('employee_name');
         $new_form_data['request_subject'] = $form_data['request_subject'];
         $new_form_data['request_type'] = $form_data['request_type'];
@@ -153,12 +154,12 @@ class Home extends MY_Controller {
             $data['users_online'] = $this->procurement_model->get_users_online();
             $data['read'] = $this->procurement_model->check_read($employee_id);
 
-            if($user_role == 1){
+            if(in_array("3", $this->user_roles)){
                 $data['lists'] = $this->procurement_model->load_requests_1($employee_id);
                 $this->load->view('request_inbox', $data);
             }
-            elseif($user_role == 2){
-                $data['lists'] = $this->procurement_model->load_requests_2($department_id);
+            elseif(in_array("9", $this->user_roles)){
+                $data['lists'] = $this->procurement_model->load_inbox_hod($department_id);
                 $this->load->view('request_inbox', $data);
             }
             elseif($user_role == 3){
@@ -330,6 +331,20 @@ class Home extends MY_Controller {
     public function load_vendor_details($vendor_id){
         $data['vendor_details'] = $this->procurement_model->get_vendor($vendor_id);
         $this->load->view('vendor_details', $data);
+    }
+
+    public function request_sent(){
+        if($this->session->employee_id != null) {
+            $employee_id = $this->session->employee_id;
+
+            $results = $this->procurement_model->get_sent_requests($employee_id);
+            $data['lists'] = $results;
+
+            $this->load->view('sent_items', $data);
+        }
+        else{
+            redirect(base_url('login'), 'Location');
+        }
     }
 
 

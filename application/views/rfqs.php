@@ -11,20 +11,6 @@ require_once(APPPATH.'views/includes/header.php');
 require_once(APPPATH.'views/includes/navigation.php');
 require_once(APPPATH.'views/includes/left_sidebar.php');
 ?>
-        <br>
-        <!-- Breadcrumbs line -->
-        <div class="breadcrumb-line">
-            <ul class="breadcrumb">
-                <li><a href="<?php echo base_url();?>">Home</a></li>
-                <li class="active">Quotations</li>
-            </ul>
-
-            <div class="visible-xs breadcrumb-toggle">
-                <a class="btn btn-link btn-lg btn-icon" data-toggle="collapse" data-target=".breadcrumb-buttons"><i class="icon-menu2"></i></a>
-            </div>
-
-        </div>
-        <!-- /breadcrumbs line -->
 
         <br>
         <div class="panel panel-default">
